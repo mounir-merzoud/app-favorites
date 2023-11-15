@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    /* Les propriétés suivantes ne s'appliquent pas ici. Elles doivent être dans une règle spécifique. */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background-image: url(Images/photos-de-couverture1.jpg); */
+    /* background-size: cover; */
+}
+
+header {
+    height: 200vh; /* J'ai changé '200vh' à '200px' car 'vh' est pourcentage de la hauteur de la vue. */
+    width: 200vh;
+    background-image: url(Images/photos-de-couverture1.jpg);
+    background-size: cover;
+}
+
+.menu-nav {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 30px; 
+    left: 0px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.nav-links ul li {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 2px solid #0a0101;
+    border-radius: 10px;
+    
+}
+.menu-nav .logo {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    padding: 10px;
+    border: 2px solid #0a0101;
+    border-radius: 10px;
+
+}
+.menu-nav .fa-brands fa-facebook{
+    display: inline-flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+
+
+
