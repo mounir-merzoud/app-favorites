@@ -1,59 +1,94 @@
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    /* Les propriétés suivantes ne s'appliquent pas ici. Elles doivent être dans une règle spécifique. */
-    /* height: 100%; */
-    /* width: 100%; */
-    /* background-image: url(Images/photos-de-couverture1.jpg); */
-    /* background-size: cover; */
-}
-
-header {
-    height: 200vh; /* J'ai changé '200vh' à '200px' car 'vh' est pourcentage de la hauteur de la vue. */
-    width: 200vh;
-    background-image: url(Images/photos-de-couverture1.jpg);
+header{
+    background-image: url(../Images/photos-de-couverture.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
     background-size: cover;
-}
-
-.menu-nav {
-    color: black;
-    font-weight: bold;
-    position: absolute;
-    top: 30px; 
-    left: 0px; 
-    display: flex;
+    display: block;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+
+
+
+}
+header .menu-nav h1{
+    color: #4caf50;
+}
+
+header .menu-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .menu-nav ul li{
+    margin-left: 30px;
+    margin-right: 50px;
+    list-style: none;
+    padding: 5px;
+    background: #45a049;
+    border-radius: 10px;
+}
+.delivery-form{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 100px;
+  }
+
+  #delivery-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
     width: 100%;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
     box-sizing: border-box;
-}
-.nav-links ul li {
-    display: inline-flex;
-    justify-content: flex-end;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 10px;
-    border: 2px solid #0a0101;
-    border-radius: 10px;
-    
-}
-.menu-nav .logo {
-    display: inline-flex;
-    justify-content: flex-end;
-    margin-left: 20px;
-    padding: 10px;
-    border: 2px solid #0a0101;
-    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
 
-}
-.menu-nav .fa-brands fa-facebook{
-    display: inline-flex;
-    justify-content: flex-start;
-    margin-left: 50px;
-}
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
 
+  button:hover {
+    background-color: #45a049;
+  }
+  .skils{
+   margin-top: 20px; 
+   display: grid;
+   grid-template-columns:repeat(3, 1fr);
+   gap: 10px;
+  }
+.skils1 img{
+    height: 80px;
+    width: 80px;
 
-
-
+  }
+  
