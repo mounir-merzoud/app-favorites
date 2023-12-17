@@ -9,7 +9,7 @@
     }
 }
 header {
-    background-image: url(Images/photos-de-couverture.jpg);
+    background-image: url(../Images/photos-de-couverture.jpg);
     
     width: 79%;
     background-size: cover;
